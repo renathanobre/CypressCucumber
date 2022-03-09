@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "cosmiconfig": "^7.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "name": "foodee-qa-exercise-main",
+  "description": "## Team Order Checkout Feature At Foodee we have a policy of protecting our most critical workflows. Our most important of those is the team order check-out workflow:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

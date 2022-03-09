@@ -1,0 +1,16 @@
+{
+  "testFiles": "**/*.feature",
+
+  "env":
+  {
+     "url":"https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor",
+     "fullName":"Joe Gaudet",
+     "email":"joe.gaudete@food.ee",
+     "phoneNumber":"7789944846",
+     "department":"Accounting",
+     "textAreaAllergyNotes": "No allergies to be informed "
+
+
+
+  }
+}
