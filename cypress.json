@@ -4,13 +4,19 @@
   "env":
   {
      "url":"https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor",
-     "fullName":"Joe Gaudet",
-     "email":"joe.gaudete@food.ee",
-     "phoneNumber":"7789944846",
-     "department":"Accounting",
+     "fullName":"Renata Vieira",
+     "email":"renathanobre@testfk.com",
+     "phoneNumber":"7781238458",
+     "department":"IT",
      "textAreaAllergyNotes": "No allergies to be informed "
+  },
 
+  "reporter": "mochawesome",
+  "reporterOptions": {
+   "charts": true,
+   "overwrite": false,
+   "html": true,
+   "json": false,
+   "reportDir": "cypress/report/mochawesome-report"}
 
-
-  }
 }
