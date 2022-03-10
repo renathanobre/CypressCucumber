@@ -7,7 +7,9 @@ Feature: Team Ordering As Guest
    And I am able to sign in as a guest
    
  Scenario: Providing user details
-   Then I am presented with a details form that validates my inputs
+  Then I am presented with a details form that validates my inputs
+    |fullName|email|phoneNumber|department|
+    |Renata Vieira|renathanobre@testfk.com|7781238458|IT|
 
  Scenario: Adding items
    When I select an item with no options
