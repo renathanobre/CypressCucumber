@@ -7,7 +7,7 @@ Feature: Team Ordering As Guest
    And I am able to sign in as a guest
    
  Scenario: Providing user details
-  Then I am presented with a details form that validates my inputs
+   Then I am presented with a details form that validates my inputs
     |fullName|email|phoneNumber|department|
     |Renata Vieira|renathanobre@testfk.com|7781238458|IT|
 
@@ -22,8 +22,10 @@ Feature: Team Ordering As Guest
  Scenario: Selecting Options
    When I select an item with options
    Then I am able to select some modifications to the menu item
+    |textAreaAllergyNotes|
+    |No allergies to be informed|
    
  Scenario: Checking out
-  When I have finished ordering and checkout
+   When I have finished ordering and checkout
    Then I am prompted for cutlery
    And I am able to accept and finish the checkout process
